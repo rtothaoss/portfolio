@@ -40,7 +40,7 @@ const Projects = () => {
             title='AirBnB'
             backgroundImg={airBnB}
             projectUrl='/airbnb'
-            tech='Next JS'
+            tech='NextJs'
 
           />
         </div>
