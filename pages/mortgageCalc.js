@@ -26,7 +26,15 @@ const mortgageCalc = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Lorem Ipsum about project</p>
+          <p>
+            This app was built with Angular and hosted on Firebase. The
+            mortgage calculator was built with modularity in mind. If the
+            customer requires a pie chart in their application then you can use
+            the chart seperately from the form thanks to the calculator service.
+            The pie chart could be used completely seperately like in a mortgage
+            lending app. If no pie chart is required then only the form can be
+            used and ouputs setup to show all the data that is necessary.
+          </p>
           <a
             href="https://github.com/rtothaoss/FillowMortgageCalc"
             target="_blank"
@@ -56,7 +64,7 @@ const mortgageCalc = () => {
                 <RiRadioButtonFill className="pr-1" /> ChartJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> rxjs
+                <RiRadioButtonFill className="pr-1" /> Firebase
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> TailwindCSS

@@ -26,8 +26,18 @@ const pdfViewer = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Lorem Ipsum about project</p>
-          <p className="font-thin italic">You will not be able to upload files. You may only view files.</p>
+          <p>
+            This app was built with Angular and uses PDFtron to display the PDF.
+            The app allows users to upload files to a real time database and
+            view those PDF&#39;s without opening a seperate tab and complicating
+            the user experience. This is also very userful for companies that
+            want to maintain privacy. It will allow only authorized users to
+            view PDF&#39;s in their work environment.
+          </p>
+          <p className="font-thin italic">
+            You will not be able to upload files in the demo app. You may only
+            view files.
+          </p>
           <a
             href="https://github.com/rtothaoss/pdf-viewer"
             target="_blank"

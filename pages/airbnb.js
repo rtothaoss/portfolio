@@ -26,11 +26,13 @@ const airbnb = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Lorem Ipsum about project</p>
+          <p>
+            This app was built using React/Next and hosted on Vercel. The app
+            uses react-map-gl along with the geolib package to display map
+            information. At the moment the search function only works with
+            London but this will be updatd very soon.
+          </p>
 
-    
-
-    
           <a
             href="https://github.com/rtothaoss/airbnbclone"
             target="_blank"
@@ -39,7 +41,7 @@ const airbnb = () => {
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://desolate-oasis-37454.herokuapp.com/"
+            href="https://airbnbclone-blush.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
