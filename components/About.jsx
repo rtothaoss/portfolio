@@ -12,30 +12,27 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
+
           <p className="py-2 text-gray-600">
-            / / Lorem
+            After finally figuring out what I wanted to do with my life I
+            attended a 6 month web development bootcamp at SMU. It started out
+            with HTML/CSS/Js then moved into jQuery and handlebars. I learned
+            about SQL and NoSQL databases then eventually learned about React
+            and finished the course with a complete MERN app. The app I built is
+            called Supbot and it allows users to pick items from the popular
+            Supreme clothing brand and have a bot handle the purchasing for you
+            saving you precious time trying to do eveyrthing manually. I
+            thoroughly enjoyed this part of the course because I was able to
+            build something from scratch and use technologies I had never used
+            before.
           </p>
           <p className="py-2 text-gray-600">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-          <p className="py-2 text-gray-600">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Recently I have begun to learn Angular and in the beginning this was
+            tough becuase I was so used to React but I&#39;ve really come to
+            enjoy Angular. Learning how to build an app step by step from a
+            video is great in the beginning but the true test is building
+            something from scratch. At the moment I am putting some finishing
+            touches on a few angular projects that you will find down below.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
