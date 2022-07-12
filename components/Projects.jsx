@@ -37,7 +37,7 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='AirBnB'
+            title='AirBnB App'
             backgroundImg={airBnB}
             projectUrl='/airbnb'
             tech='NextJs'
