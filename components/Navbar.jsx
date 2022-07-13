@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import NavLogo from '../public/assets/RClogo.png'
 // import { useRouter } from 'next/router';
 
 
@@ -57,7 +58,13 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
-            <h1>Ross</h1>
+          <Image
+              src={NavLogo}
+              alt='/'
+              width='125'
+              height='60'
+              className='cursor-pointer'
+            />
           </a>
         </Link>
         <div>
