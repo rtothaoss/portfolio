@@ -5,6 +5,7 @@ import pdfViewer from '../public/assets/projects/pdfViewer.png';
 import mortgageCalc from '../public/assets/projects/mortgageCalc.png'
 import mortgageApp from '../public/assets/projects/mortgageApp.png'
 import airBnB from '../public/assets/projects/airBnB.png'
+import realEstateApp from '../public/assets/projects/realEstateApp.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -23,18 +24,17 @@ const Projects = () => {
             tech='MEAN stack'
           />
           <ProjectItem
-            title='Mortgage Calculator'
-            backgroundImg={mortgageCalc}
-            projectUrl='/mortgageCalc'
+            title='Real Estate App'
+            backgroundImg={realEstateApp}
+            projectUrl='/realEstateApp'
             tech='Angular'
 
           />
           <ProjectItem
-            title='PDF Viewer'
-            backgroundImg={pdfViewer}
-            projectUrl='/pdfViewer'
+            title='Mortgage Calculator'
+            backgroundImg={mortgageCalc}
+            projectUrl='/mortgageCalc'
             tech='Angular'
-
           />
           <ProjectItem
             title='AirBnB App'
